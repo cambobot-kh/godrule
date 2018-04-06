@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '>invite') {
-    	message.reply('http://bit.ly/2H0g96c');
+    	message.reply('http://bit.ly/2uOM3O5');
   	}
 });
 
