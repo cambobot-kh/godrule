@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '>owner') {
-    	message.reply('FB : `HeaLOng`');
+    	message.reply('FB:`HeaLOng`');
   	}
 });
 
