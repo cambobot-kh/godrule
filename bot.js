@@ -13,13 +13,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '>invite') {
-    	message.reply('http://bit.ly/2uOM3O5');
+    	message.reply('http://bit.ly/2Hdp01j');
   	}
 });
 
 client.on('message', message => {
     if (message.content === '>owner') {
-    	message.reply('💎HeaLOng💎#5881');
+    	message.reply('FB : `HeaLOng`');
   	}
 });
 
