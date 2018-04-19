@@ -29,5 +29,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '>rule') {
+    	message.reply('https://ibb.co/bUfw4x');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '>music') {
+    	message.reply('Music Is CommingSoon');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
